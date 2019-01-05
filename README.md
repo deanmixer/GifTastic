@@ -1,0 +1,2 @@
+# GifTastic
+A GIF generator
