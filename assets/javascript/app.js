@@ -51,8 +51,8 @@ $("#choices").on("click", ".btn-dark", function() {
             actorImage.attr("data-animate", results[i].images.fixed_height.url);
             actorImage.attr("data-state", "still");
             actorImage.css('max-width','100%');
-            actorDiv.append(p);
             actorDiv.append(actorImage);
+            actorDiv.append(p);
             $("#gifs-appear-here").prepend(actorDiv);
           }
         });
